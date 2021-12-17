@@ -18,3 +18,17 @@ The services, features, and technologies that are enabled with the lab envrionme
 The modules below enable IOS XE Device Lifecycle Management:
 
 ![](./imgs/device_lifecycle.png)
+
+# Lab Modules
+
+Lab modules can be completed in any order. Mark the lab completed in the SmartSheet form once you have successfully completed each module to receive SEVT learning credits when appropriate. 
+
+# YANG Suite
+
+# Terraform
+
+# Model Driven Telemetry (MDT)
+
+# CLI to YANG
+
+# gNOI reset.proto
