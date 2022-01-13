@@ -27,8 +27,6 @@ Lab modules can be completed in any order. Mark the lab completed in the SmartSh
 
 # Terraform
 
-# Model Driven Telemetry (MDT)
-
 # CLI to YANG
 
 # gNOI reset.proto
