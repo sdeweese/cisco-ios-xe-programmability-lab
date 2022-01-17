@@ -23,10 +23,12 @@ The modules below enable IOS XE Device Lifecycle Management:
 
 Lab modules can be completed in any order. Mark the lab completed in the SmartSheet form once you have successfully completed each module to receive SEVT learning credits when appropriate. 
 
-# YANG Suite
+## YANG Suite
 
-# Terraform
+## Terraform
 
-# CLI to YANG
+## CLI to YANG
 
-# gNOI reset.proto
+[CLI to YANG Module](CLI2YANG.md)
+
+## gNOI reset.proto
