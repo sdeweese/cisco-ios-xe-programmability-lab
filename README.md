@@ -25,12 +25,19 @@ Lab modules can be completed in any order. Mark the lab completed in the SmartSh
 
 ## YANG Suite
 
+[YANG Suite Module](YANGSuite.md)
+
 ## Terraform
+
+[Terraform Module](Terraform.md)
 
 ## CLI to YANG
 
 [CLI to YANG Module](CLI2YANG.md)
 
 ## gNOI reset.proto
+
+[gNOI reset.proto Module](gNOI_reset_proto.md)
+
 
 
