@@ -11,8 +11,7 @@
 
 Reset.proto also known as the Factory Reset API is the latest addition to the gNOI operations interface within the gNMI.
 
-The factory reset API as described at https://github.com/openconfig/gnoi/blob/master/factory_reset/​ with tooling from https://github.com/google/gnxi/tree/master/gnoi_reset
- ​
+The factory reset API as described at [openconfig/gnoi](https://github.com/openconfig/gnoi/blob/master/factory_reset/​) with tooling from [google/gnxi](https://github.com/google/gnxi/tree/master/gnoi_reset).
 
 This module describes the capabilities of the gnoi_reset tooling which is used to factory reset Cisco Catalyst IOS XE devices like the Catalyst 9300 used in this example.
 
