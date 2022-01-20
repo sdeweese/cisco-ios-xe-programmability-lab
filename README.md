@@ -25,7 +25,7 @@ Lab modules can be completed in any order. Mark the lab completed in the SmartSh
 
 ## YANG Suite
 
-[YANG Suite Module](YANGSuite.md)
+[YANG Suite Module](YANG_Suite.md)
 
 ## Terraform
 
