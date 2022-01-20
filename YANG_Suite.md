@@ -3,7 +3,7 @@
 ## NETCONF: GET Interface Descriptions 
 Using NETCONF, make an API call to the C9300 device to determine the description of an interface.
 
-1. Login to the pod  using RPD
+1. Login to the pod using RDP <br />
 ![](./imgs/login_using_rdp.png)
 
 1. Within the pod, navigate to http://localhost:8480 or select the short cut in the Firefox browser
