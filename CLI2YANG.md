@@ -23,8 +23,8 @@ How many lines of code are in the output of `netconf-xml`?
 7. Run the `netconf-format` integration and redirect the configuration output to the file `config.before`: 
    `[guestshell@guestshell ~]$ netconf-format  > config.before`.
 
-# Retrieve run config formatted with JSON for RESTCONF
-How many lines of code are in the output of restconf-json?
+## Retrieve run config formatted with JSON for RESTCONF
+How many lines of code are in the output of `restconf-json`?
 
 1. Login to the pod.
 2. Access the c9300 using `telnet c9300`. Then, use credentials `admin` / `Cisco123`.
@@ -33,7 +33,7 @@ How many lines of code are in the output of restconf-json?
 5. Now that you’ve seen the output, count the number of lines using `guestshell run restconf-count`. After formatting 
    CLI to RESTCONF JSON, find the number of lines in the output.
 
-# Update the running-config with a script
+## Update the running-config with a script
 What is the printed flag when updating the configuration?
 
 1. [guestshell@guestshell ~]$ netconf-format > config.before (this will take a few seconds to complete).
@@ -42,7 +42,7 @@ What is the printed flag when updating the configuration?
 4. Run the script by running the command `auto@pod5-xelab:~$ cd ~/cli2yang ; ./update-config.sh`.
 5. What is the printed flag (a hashed string) when updating the configuration through the script above?
 
-# Compare differences in the config
+## Compare differences in the config
 How many lines of config have changed after running `./cli2yang/update-config.sh`?
 
 1. Run the following commands from the Guest Shell prompt.
@@ -55,7 +55,7 @@ How many lines of config have changed after running `./cli2yang/update-config.sh
   ```
 2. How many lines of code changed after running the update-config.sh?
 
-# Review the config that changed
+## Review the config that changed
 Run the following to see the changes in the config:
 ```
 [guestshell@guestshell ~]$ diff config.before config.after
@@ -64,6 +64,7 @@ There is a short amount of output and the final line is the flag, including the 
 
 1. Determine which feature was added by running `[guestshell@guestshell ~]$ diff config.before config.after`.
 
-# Which IOS feature did the script add?
+## Which IOS feature did the script add?
 After running the `update-config.sh` script, notice the new config that was added. What is the feature found using 
 the `GET` method? Note: `update-config.sh` applies the changes in `terraform.tf`.
+
