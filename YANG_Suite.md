@@ -106,6 +106,8 @@ Make an API call to delete the interface description.
 ## RESTCONF: GET Loopback Mask
 Make an API call to get the interface description.
 
+![](./imgs/restconf_get_loopback.gif)
+
 1. Protocol: “RESTCONF”
 1. Select a YANG Set: “c9300-default-yangset”
 1. Select a device: “C9300”
@@ -134,6 +136,8 @@ Make an API call to get the interface description.
 ![](./imgs/execute_restconf_api.png)
 
 ## gRPC subscription
+![](./imgs/grpc.gif)
+
 1. In YANG Suite,
     1. Protocol: "gRPC telemetry"
     1. Listen at IP address: “0.0.0.0”

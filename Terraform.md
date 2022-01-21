@@ -46,6 +46,8 @@ resource "iosxe_rest" "vlan_example_get" {
 
 ## Apply Terraform
 Now that the .tf file has been reviewed and is ready for use, the Terraform tool itself can be initialized and then used to apply this configuration
+![](./imgs/terraform.gif)
+
 
 1. Initialize Terraform with `terraform init`
 1. Apply the configuration with the terraform apply command `terraform apply -auto-approve`
