@@ -1,5 +1,5 @@
 # CLI2YANG
-CLI to YANG is an IOS XE feature that converts currently configured features to either XML to use with NETCONF or JSON to use with RESTCONF.
+In Cisco IOS XE Cupertino 17.7.1 and later releases, you can automatically translate IOS commands into relevant NETCONF-YANG XML or RESTCONF-JSON request messages. You can analyze the generated configuration messages and familiarize with the Xpaths used in these messages. The generated configuration in the structured format can be used to provision other devices in the network; however, this configuration cannot be modified.
 
 ## Retrieve running config on the device in CLI
 Review the CLI running configuration

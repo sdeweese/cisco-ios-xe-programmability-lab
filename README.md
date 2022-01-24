@@ -21,7 +21,7 @@ Lab modules can be completed in any order. Mark the lab completed in the [SmartS
 
 ## YANG Suite
 
-[YANG Suite](https://github.com/CiscoDevNet/yangsuite) is HTML5 based tooling that is available for working with the YANG based programmable interfaces on Cisco IOS XE, XR, and NX Network Operating Systems. It has plugins that allow for interacting with the programmable interfaces and supports downloading YANG files directly from network devices.
+[YANG Suite](https://github.com/CiscoDevNet/yangsuite) is HTML5 based tooling that is available for working with the YANG based programmable interfaces on Cisco IOS XE, XR, and NX Network Operating Systems. It has plugins that allow for interacting with the programmable interfaces and supports downloading YANG files directly from network devices. In this module, we will explore using NETCONF and RESTCONF to configure a switch and we will create a gRPC telemetry subscriptions.
 
 [YANG Suite Module](YANG_Suite.md)
 
@@ -31,7 +31,7 @@ Terraform is a cloud native, open-source infrastructure provisioning tooling sim
 [Terraform Module](Terraform.md)
 
 ## CLI to YANG
-CLI to YANG is an IOS XE feature that converts currently configured features to either XML to use with NETCONF or JSON to use with RESTCONF.
+In Cisco IOS XE Cupertino 17.7.1 and later releases, you can automatically translate IOS commands into relevant NETCONF-YANG XML or RESTCONF-JSON request messages. You can analyze the generated configuration messages and familiarize with the Xpaths used in these messages. The generated configuration in the structured format can be used to provision other devices in the network; however, this configuration cannot be modified.
 
 [CLI to YANG Module](CLI2YANG.md)
 
