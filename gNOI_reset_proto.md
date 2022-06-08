@@ -5,7 +5,7 @@
 ## Version: Cisco IOS XE 17.7
 
 
-![](imgs/iosxelifecycle.png)
+![](imgs/device_lifecycle.png)
 
 ## Factory Reset API
 
